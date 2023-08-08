@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.parent {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+}
+
+/* middle */
+.middle {
+  width: 100%;
+}
+.middle .left {
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.middle .left h1 {
+  padding-left: 80px;
+  width: 50%;
+  font-size: 85px;
+  height: auto;
+  font-weight: 600;
+}
+.middle .left p {
+    line-height: 40px;
+  margin-top: -20px;
+  padding-left: 80px;
+
+  width: 60%;
+  font-size: 20px;
+  height: auto;
+  color: GRAY;
+}
+.middle .left button {
+  background-color: #f8d57e;
+  margin-left: 80px;
+  width: 200px;
+  font-size: 20px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+.middle .right1 {
+  width: 50%;
+  float: right;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* brands */
+.brands{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.brands img{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+button{
+    cursor: pointer;
+}
+
+/* features */
+.features{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+/* frame */
+.frame {
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  background-color: #f2faf8;
+  justify-content: space-evenly;
+}
+
+video::-webkit-media-controls {
+  opacity: 1%;
+}
+
+/* media  */
+@media screen and (max-width: 1340px) {
+  .middle .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .middle .left h1 {
+    width: 90%;
+    margin-left: -20px;
+    padding: auto;
+  }
+
+  .middle .left p {
+    padding: auto;
+    width: 90%;
+    text-align: left;
+    margin-left: -20px;
+
+  }
+  .middle .right1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}

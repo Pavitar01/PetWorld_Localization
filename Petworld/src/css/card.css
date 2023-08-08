@@ -1,0 +1,9 @@
+.cards{
+    width: 400px;
+    height: 300px;
+    flex: wrap;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
