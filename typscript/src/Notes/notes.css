@@ -1,0 +1,16 @@
+.notes{
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(142, 142, 179);
+    margin: 10px;
+    text-align: center;
+}
+.parent{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
