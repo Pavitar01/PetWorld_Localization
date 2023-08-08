@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+.Chats {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.board {
+  width: 80vw;
+  height: 90%;
+  background-color: #5c82ff;
+  /* background: linear-gradient(to bottom, #5c82ff, rgba(236, 234, 234, 0.644)); */
+  border-radius: 20px;
+  overflow: hidden;
+}
+.board .left {
+  width: 15%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+}
+
+.board .middle {
+  width: 25%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+  overflow-y: scroll;
+}
+.board .middle::-webkit-scrollbar {
+  width: 1%;
+}
+.board .right {
+  width: 60%;
+  height: 100%;
+  border: 1px solid white;
+  float: left;
+}
+.profile {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.profile .image {
+  border-radius: 100%;
+  padding: 10px;
+  border: 1px solid white;
+}
+.profile .email {
+  margin-top: -10px;
+}
+
+.profile i {
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+/* middle board */
+.middleBoard {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.middleBoard .input {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+.input i {
+  color: gray;
+  font-size: 20px;
+}
+.input input {
+  width: 90%;
+  height: 90%;
+  outline: none;
+  border: 1px solid white;
+  font-size: 20px;
+  caret-color: blue;
+  color: gray;
+}
+/* media query */
+@media only screen and (max-width: 1467px) {
+  .board .left {
+    display: none;
+  }
+
+  .board .right {
+    width: 80%;
+    float: left;
+  }
+
+  .board .middle {
+    width: 20%;
+    float: left;
+  }
+  .middleBoard .input {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1467px) {
+  .middleBoard .input {
+    display: block;
+    width: 60%;
+  }
+  .middleBoard .input i {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .middleBoard .input {
+    display: none;
+  }
+}
