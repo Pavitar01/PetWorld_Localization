@@ -1,18 +1,25 @@
-export const user = [
+export const usersdata = [
   {
     id: 1,
-    username: "pavi",
+    username: "Pavi",
+    flag: 0
   },
   {
     id: 2,
-    username: "pavi",
+    username: "Avi",
+    flag: 1
+
   },
   {
     id: 3,
-    username: "pavi",
+    username: "Kavi",
+    flag: 0
+
   },
   {
     id: 4,
-    username: "pavi",
+    username: "Ravi",
+    flag: 0
+
   },
 ];

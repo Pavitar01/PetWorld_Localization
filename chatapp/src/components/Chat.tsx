@@ -8,6 +8,7 @@ import { Button, message } from "antd";
 import "../css/chats.css";
 import Left from "./Left";
 import Middle from "./Middle";
+import MessageBoard from "./MessageBoard";
 
 const Chat = () => {
   const [messageApi, contextHolder] = message.useMessage();
@@ -30,7 +31,9 @@ const Chat = () => {
         <div className="middle">
           <Middle />
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <MessageBoard/>
+        </div>
       </div>
     </div>
   );
