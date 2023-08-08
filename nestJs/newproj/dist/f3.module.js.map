@@ -1,0 +1,1 @@
+{"version":3,"file":"f3.module.js","sourceRoot":"","sources":["../src/f3.module.ts"],"names":[],"mappings":";;;;;;;;;;;;AACA,2CAAwC;AAOjC,IAAM,cAAc,4BAApB,MAAM,cAAc;IACzB;QACE,OAAO,CAAC,GAAG,CAAC,iBAAiB,CAAC,CAAC;IACjC,CAAC;CACF,CAAA;yBAJY,cAAc;IAL1B,IAAA,eAAM,EAAC;QACN,OAAO,EAAE,EAAE;QACX,WAAW,EAAE,EAAE;QACf,SAAS,EAAE,EAAE;KACd,CAAC;;GACW,cAAc,CAI1B"}
